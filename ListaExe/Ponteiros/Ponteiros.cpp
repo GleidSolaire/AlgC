@@ -9,7 +9,7 @@ int main()
 {
 	int *x, valor, y;
 	valor = 35;
-	x = &valor;
+	x = valor;
 	y = *x;
 	valor = 36;
 
