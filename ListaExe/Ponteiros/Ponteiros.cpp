@@ -5,6 +5,7 @@
 #include <stdlib.h>
 
 
+
 int main()
 {
 	int *x, valor, y;
