@@ -1,0 +1,41 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include<stdbool.h>
+
+/*
+ * 
+ */
+int
+main (int argc, char** argv)
+{
+
+  char string[30];
+  bool contador;
+  char c;
+  char r;
+  
+  
+  
+  printf("Digite uma String:  \n");
+  fgets(string,30,stdin);
+  
+  printf("Digite um caracter para buscar na string: \n");
+  scanf("%c", &c);
+  
+  for(int i=1;i<=30;i++) {
+      
+      if(string[i]==c) {
+          
+          contador=true;
+           printf("O caracter [%c] esta na posicao: [%i] ",c,i);
+        }
+     
+      
+      }
+    
+  if (contador==false)
+        printf("Caracter nao encontrado");
+
+  
+  return (EXIT_SUCCESS);
+}
