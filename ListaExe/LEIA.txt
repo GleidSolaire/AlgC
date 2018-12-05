@@ -1,0 +1,3 @@
+A lista de exercicos esta meio separada devido a estar trabalhando com diversas ferramentas 
+pois no trabalho usei o netbeans e em casa o notepad
+a maioria deles esta nesta pasta os que estao fora foram feitos no netbeans
